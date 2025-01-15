@@ -1,0 +1,62 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+
+# Environments
+.env
+venv/
+.env.bak
+*.env
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+
+# Django Migrations
+db.sqlite3
+migrations/*
+!migrations/__init__.py
+
+# Media files
+media/
+staticfiles/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.swpx
+
+# Tests
+htmlcov/
+*.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Byte-compiled cache directories
+__pycache__/
+*.py[cod]
+
+# Logs y debugging
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# Otros
+*.bak
+*.orig
+*.rej
